@@ -9,7 +9,7 @@
  */
 angular.module('jallufinApp')
   .value('corsURL', '//cors-anywhere.herokuapp.com/')
-  .value('APIURL',  'http://www.alko.fi/api/product/Availability?productId=000706&language=fi&cityId=')
+  .value('APIURL',  'http://www.alko.fi/api/product/Availability?productId=000079&language=fi&cityId=')
   .factory('Availability', function ($http, $q,corsURL,APIURL) {
     
 
